@@ -4,9 +4,9 @@ const Film = ({ name, url, children }) => {
 
     return (
         <>
-            <p>{name}</p>
+            {/* <p>{name}</p> */}
             <p>{children}</p>
-            <a href={url} target="_blank">link</a>
+            <li><a href={url} target="_blank">{name}</a></li>
         </>
     )
 
