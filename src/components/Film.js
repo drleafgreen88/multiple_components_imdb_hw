@@ -6,7 +6,7 @@ const Film = ({ name, url, children }) => {
         <>
             <p>{name}</p>
             <p>{children}</p>
-            <p>{url}</p>
+            <a href={url} target="_blank">link</a>
         </>
     )
 
