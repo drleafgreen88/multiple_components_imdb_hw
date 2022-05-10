@@ -46,6 +46,14 @@ const FilmBox = () => {
             <div>
             <FilmList filmsArray={films} />
             </div>
+
+            <a href="https://www.imdb.com/calendar/?region=gb" target="_blank">
+                <div>
+                    <p>
+                        Click Here to See More Films!
+                    </p>
+                </div>
+            </a>
         </>
     );
 
